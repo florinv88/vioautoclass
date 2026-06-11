@@ -31,7 +31,7 @@ const Features: React.FC = () => {
         <div className="text-center mb-16">
           <h2 className="text-base font-semibold text-red-600 tracking-wide uppercase">De ce noi?</h2>
           <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-slate-900 sm:text-4xl">
-            Avantajele Vio Auto Class
+            Avantajele VIO AUTOCLASS
           </p>
           <p className="mt-4 max-w-2xl text-xl text-slate-500 mx-auto">
             Nu te învățăm doar să conduci, te învățăm să fii un șofer responsabil.

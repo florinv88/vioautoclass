@@ -14,7 +14,7 @@ export const NAV_ITEMS: NavItem[] = [
 export const CONTACT_INFO: ContactInfo = {
   phone: "0765 777 794",
   secondaryPhones: ["0737.275.883", "0767.466.530"],
-  email: "office@vioautoclass.ro",
+  email: "bunea_mirel@yahoo.com",
   address: "Drumul Sarii nr. 115, Sector 6, București",
   // Approximate coordinates for Drumul Sarii 115
   mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2849.636653585097!2d26.048708!3d44.420138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b201f057863b1b%3A0x6a2c2763260840c8!2sStrada%20Drumul%20S%C4%83rii%20115%2C%20Bucure%C8%99ti!5e0!3m2!1sen!2sro!4v1650000000000!5m2!1sen!2sro"
