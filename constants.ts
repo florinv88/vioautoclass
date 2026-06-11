@@ -29,7 +29,7 @@ export const COURSES: Course[] = [
     price: "3100 RON",
     duration: "Total sedinte (15). Durata sedinta (1 ora si 40 de min).",
     features: ["Pret sedinta suplimentara (250 RON)", "Orele de legislatie rutiera incluse in pret."],
-    image: "/bmw_negru_fata.JPG"
+    image: "/bmw_negru_fata_result.avif"
   },
   {
     id: "cat-b-2",
@@ -39,7 +39,7 @@ export const COURSES: Course[] = [
     price: "2850 RON",
     duration: "Total sedinte (15). Durata sedinta (1 ora si 40 de min).",
     features: ["Pret sedinta suplimentara (220 RON)", "Orele de legislatie rutiera incluse in pret."],
-    image: "/bmw_alb2_fata.JPG"
+    image: "/bmw_alb2_fata_result.avif"
   },
   {
     id: "cat-b-3",
@@ -49,7 +49,7 @@ export const COURSES: Course[] = [
     price: "2850 RON",
     duration: "Total sedinte (15). Durata sedinta (1 ora si 40 de min).",
     features: ["Pret sedinta suplimentara (250 RON)", "Orele de legislatie rutiera incluse in pret."],
-    image: "/image_4.jpg"
+    image: "/image_4_result.avif"
   },
   {
     id: "cat-b-4",
@@ -59,7 +59,7 @@ export const COURSES: Course[] = [
     price: "2850 RON",
     duration: "Total sedinte (15). Durata sedinta (1 ora si 40 de min).",
     features: ["Pret sedinta suplimentara (220 RON)", "Orele de legislatie rutiera incluse in pret."],
-    image: "/ww_alb_fata.JPG"
+    image: "/ww_alb_fata_result.avif"
   },
     {
     id: "cat-b-5",
@@ -69,7 +69,7 @@ export const COURSES: Course[] = [
     price: "2850 RON",
     duration: "Total sedinte (15). Durata sedinta (1 ora si 40 de min).",
     features: ["Pret sedinta suplimentara (220 RON)", "Orele de legislatie rutiera incluse in pret."],
-    image: "/ww_gri_fata.JPG"
+    image: "/ww_gri_fata_result.avif"
   },
 ];
 
@@ -114,73 +114,73 @@ export const EXTRA_FEES = [
 export const GALLERY_ITEMS: GalleryItem[] = [
   {
     id: "g1",
-    src: "/bmw_negru_sofer.JPG",
+    src: "/bmw_negru_sofer_result.avif",
     alt: "",
     category: ""
   },
   {
     id: "g2",
-    src: "/bmw_alb_sofer.JPG",
+    src: "/bmw_alb_sofer_result.avif",
     alt: "",
     category: ""
   },
   {
     id: "g3",
-    src: "/ww_gri_sofer.JPG",
+    src: "/ww_gri_sofer_result.avif",
     alt: "",
     category: ""
   },
   {
     id: "g4",
-    src: "/bmw_negru_spate.JPG",
+    src: "/bmw_negru_spate_result.avif",
     alt: "",
     category: ""
   },
     {
     id: "g5",
-    src: "/bmw_alb2_spate.JPG",
+    src: "/bmw_alb2_spate_result.avif",
     alt: "",
     category: ""
   },
       {
     id: "g6",
-    src: "/ww_gri_fata.JPG",
+    src: "/ww_gri_fata_result.avif",
     alt: "",
     category: ""
   },
    {
     id: "g7",
-    src: "/bmw_negru_fata.JPG",
+    src: "/bmw_negru_fata_result.avif",
     alt: "",
     category: ""
   },
   {
     id: "g8",
-    src: "/bmw_alb2_fata.JPG",
+    src: "/bmw_alb2_fata_result.avif",
     alt: "",
     category: ""
   },
     {
     id: "g9",
-    src: "/ww_alb_fata.JPG",
+    src: "/ww_alb_fata_result.avif",
     alt: "",
     category: ""
   },
      {
     id: "g10",
-    src: "/ww_alb_spate.JPG",
+    src: "/ww_alb_spate_result.avif",
     alt: "",
     category: ""
   },
      {
     id: "g11",
-    src: "/ww_gri_spate.JPG",
+    src: "/ww_gri_spate_result.avif",
     alt: "",
     category: ""
   },
      {
     id: "g9",
-    src: "/bmw_alb_spate.JPG",
+    src: "/bmw_alb_spate_result.avif",
     alt: "",
     category: ""
   }
