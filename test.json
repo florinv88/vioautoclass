@@ -1,0 +1,38 @@
+{
+    "email": "pristic@kolos.sk",
+    "delisId": "SK0160100F",
+    "addressId": 1000,
+    "clientKey": "7uj9y9omjjdf2ojqzavefjxx7qc685xy",
+    "httpTarget": "https://api.dpd.sk/shipment/json",
+    "bankAccountId": 1000,
+    "locations": [
+        {
+            "email": "pristic@kolos.sk",
+            "delisId": "SK0160100F",
+            "addressId": 1000,
+            "clientKey": "7uj9y9omjjdf2ojqzavefjxx7qc685xy",
+            "httpTarget": "https://api.dpd.sk/shipment/json",
+            "locationId": "101",
+            "bankAccountId": 1000
+        },
+        {
+            "email": "pristic@kolos.sk",
+            "delisId": "SK0160100F",
+            "addressId": 1001,
+            "clientKey": "7uj9y9omjjdf2ojqzavefjxx7qc685xy",
+            "httpTarget": "https://api.dpd.sk/shipment/json",
+            "locationId": "103",
+            "bankAccountId": 1001
+        }
+    ],
+    "traceCredentials": [
+        {
+            "pass": "M3UAMg6FBK4dssG2fQA6AMdy",
+            "username": "ksnsSK202501b"
+        },
+        {
+            "pass": "j7xceNSQqdeubQHs6tXSWdMa",
+            "username": "koosSK202507j"
+        }
+    ]
+}
