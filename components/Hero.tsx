@@ -7,7 +7,7 @@ const Hero: React.FC = () => {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="/image_4.jpg" 
+          src="/masini_sediu.JPG" 
           alt="Vio Auto Class Fleet" 
           className="w-full h-full object-cover"
         />

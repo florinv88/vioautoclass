@@ -6,44 +6,6 @@ const Pricing: React.FC = () => {
   return (
     <section id="pricing" className="py-20 bg-slate-50 border-t border-slate-200">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-        
-        {/* Header */}
-        <div className="text-center mb-12">
-          <h2 className="text-3xl font-extrabold text-slate-900 sm:text-4xl">
-            Tarife Categoria B
-          </h2>
-          <p className="mt-4 text-lg text-slate-600">
-            Alege mașina care ți se potrivește. Oferim flexibilitate și transparență totală.
-          </p>
-        </div>
-
-        {/* Pricing Table */}
-        <div className="bg-white rounded-2xl shadow-xl overflow-hidden border border-slate-200 mb-12">
-          <div className="overflow-x-auto">
-            <table className="w-full text-left border-collapse">
-              <thead>
-                <tr className="bg-slate-900 text-white">
-                  <th className="p-4 sm:p-6 font-semibold text-sm sm:text-base border-b border-slate-800">Autoturism</th>
-                  <th className="p-4 sm:p-6 font-semibold text-sm sm:text-base border-b border-slate-800 hidden sm:table-cell">Transmisie</th>
-                  <th className="p-4 sm:p-6 font-semibold text-sm sm:text-base border-b border-slate-800 text-right">Preț Standard</th>
-                </tr>
-              </thead>
-              <tbody className="divide-y divide-slate-100">
-                {CAR_FLEET_PRICING.map((item, index) => (
-                  <tr key={index} className="hover:bg-slate-50 transition-colors">
-                    <td className="p-4 sm:p-6 text-slate-900 font-medium">
-                      {item.model}
-                      <span className="block sm:hidden text-xs text-slate-500 mt-1 font-normal">{item.transmission}</span>
-                    </td>
-                    <td className="p-4 sm:p-6 text-slate-600 hidden sm:table-cell">{item.transmission}</td>
-                    <td className="p-4 sm:p-6 text-slate-900 font-bold text-right">{item.price}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-        </div>
-
         {/* Extra Fees & Info Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           

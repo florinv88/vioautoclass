@@ -6,7 +6,6 @@ export const NAV_ITEMS: NavItem[] = [
   { label: "Acasă", href: "#home" },
   { label: "Despre Noi", href: "#about" },
   { label: "Cursuri", href: "#courses" },
-  { label: "Tarife", href: "#pricing" },
   { label: "Informații Utile", href: "#info" },
   { label: "Galerie Auto", href: "#gallery" },
   { label: "Contact", href: "#contact" },
@@ -23,35 +22,55 @@ export const CONTACT_INFO: ContactInfo = {
 
 export const COURSES: Course[] = [
   {
-    id: "cat-b",
-    category: "B",
-    title: "Categoria B",
-    description: "Permis auto pentru autoturisme. Prețul variază în funcție de mașina aleasă.",
-    price: "Vezi Tabel Tarife",
-    duration: "30 Ore Conducere / 24 Ore Teorie",
-    features: ["Alegere mașină (BMW, Mercedes, VW)", "Cutie Manuală sau Automată", "Plată în rate disponibile", "Pregătire dosar"],
-    image: "/image_2.jpg"
+    id: "cat-b-1",
+    category: "",
+    title: "BMW Seria 1 Cutie Automata",
+    description: "Benzina",
+    price: "3100 RON",
+    duration: "Total sedinte (15). Durata sedinta (1 ora si 40 de min).",
+    features: ["Pret sedinta suplimentara (250 RON)", "Orele de legislatie rutiera incluse in pret."],
+    image: "/bmw_negru_fata.JPG"
   },
   {
-    id: "cat-c",
-    category: "C",
-    title: "Categoria C",
-    description: "Pentru transport de mărfuri. Necesită permis categoria B obținut anterior.",
-    price: "2800 RON",
-    duration: "40 Ore",
-    features: ["Camioane moderne", "Instructori experimentați", "Include C+E la pachet promoțional"],
-    image: "/image_1.jpg"
+    id: "cat-b-2",
+    category: "",
+    title: "BMW Seria 1 Manual",
+    description: "Diesel",
+    price: "2850 RON",
+    duration: "Total sedinte (15). Durata sedinta (1 ora si 40 de min).",
+    features: ["Pret sedinta suplimentara (220 RON)", "Orele de legislatie rutiera incluse in pret."],
+    image: "/bmw_alb2_fata.JPG"
   },
   {
-    id: "cat-ce",
-    category: "CE",
-    title: "Categoria CE",
-    description: "Extensie pentru remorcă la categoria C. Ideal pentru șoferii profesioniști.",
-    price: "1500 RON",
-    duration: "10 Ore",
-    features: ["Antrenament manevre speciale", "Reducere dacă se face cu Cat C"],
-    image: "/image_1.jpg"
-  }
+    id: "cat-b-3",
+    category: "",
+    title: "Mercedes Clasa C",
+    description: "Diesel",
+    price: "2850 RON",
+    duration: "Total sedinte (15). Durata sedinta (1 ora si 40 de min).",
+    features: ["Pret sedinta suplimentara (250 RON)", "Orele de legislatie rutiera incluse in pret."],
+    image: "/image_4.jpg"
+  },
+  {
+    id: "cat-b-4",
+    category: "",
+    title: "Volkswagen Golf 7 Manual ",
+    description: "Benzina",
+    price: "2850 RON",
+    duration: "Total sedinte (15). Durata sedinta (1 ora si 40 de min).",
+    features: ["Pret sedinta suplimentara (220 RON)", "Orele de legislatie rutiera incluse in pret."],
+    image: "/ww_alb_fata.JPG"
+  },
+    {
+    id: "cat-b-5",
+    category: "",
+    title: "Volkswagen Polo Manual",
+    description: "Diesel",
+    price: "2850 RON",
+    duration: "Total sedinte (15). Durata sedinta (1 ora si 40 de min).",
+    features: ["Pret sedinta suplimentara (220 RON)", "Orele de legislatie rutiera incluse in pret."],
+    image: "/ww_gri_fata.JPG"
+  },
 ];
 
 export const CAR_FLEET_PRICING = [
@@ -88,9 +107,6 @@ export const CAR_FLEET_PRICING = [
 ];
 
 export const EXTRA_FEES = [
-  { service: "Ședință Suplimentară (Cutie Manuală)", price: "200 RON / ședință" },
-  { service: "Ședință Suplimentară (Mercedes Clasa C)", price: "200 RON / ședință" },
-  { service: "Ședință Suplimentară (BMW Seria 1 Automat)", price: "250 RON / ședință" },
   { service: "Taxă Închiriere Auto Examen", price: "300 RON" },
   { service: "Școlarizare Limba Engleză", price: "3100 RON" }
 ];
@@ -98,39 +114,75 @@ export const EXTRA_FEES = [
 export const GALLERY_ITEMS: GalleryItem[] = [
   {
     id: "g1",
-    src: "/image_4.jpg",
+    src: "/bmw_negru_sofer.JPG",
     alt: "",
-    category: "Parc Auto"
+    category: ""
   },
   {
     id: "g2",
-    src: "/image_2.jpg",
+    src: "/bmw_alb_sofer.JPG",
     alt: "",
-    category: "Categoria B"
+    category: ""
   },
   {
     id: "g3",
-    src: "/image_5.jpg",
+    src: "/ww_gri_sofer.JPG",
     alt: "",
-    category: "Teorie"
+    category: ""
   },
   {
     id: "g4",
-    src: "/image_1.jpg",
+    src: "/bmw_negru_spate.JPG",
     alt: "",
-    category: "Categoria C/CE"
+    category: ""
   },
-  {
+    {
     id: "g5",
-    src: "/image_3.jpg",
+    src: "/bmw_alb2_spate.JPG",
     alt: "",
-    category: "Categoria B"
+    category: ""
+  },
+      {
+    id: "g6",
+    src: "/ww_gri_fata.JPG",
+    alt: "",
+    category: ""
+  },
+   {
+    id: "g7",
+    src: "/bmw_negru_fata.JPG",
+    alt: "",
+    category: ""
   },
   {
-    id: "g6",
-    src: "/image_4.jpg",
+    id: "g8",
+    src: "/bmw_alb2_fata.JPG",
     alt: "",
-    category: "Echipă"
+    category: ""
+  },
+    {
+    id: "g9",
+    src: "/ww_alb_fata.JPG",
+    alt: "",
+    category: ""
+  },
+     {
+    id: "g10",
+    src: "/ww_alb_spate.JPG",
+    alt: "",
+    category: ""
+  },
+     {
+    id: "g11",
+    src: "/ww_gri_spate.JPG",
+    alt: "",
+    category: ""
+  },
+     {
+    id: "g9",
+    src: "/bmw_alb_spate.JPG",
+    alt: "",
+    category: ""
   }
 ];
 
