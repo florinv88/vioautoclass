@@ -1,6 +1,6 @@
 import { ContactInfo, Course, GalleryItem, NavItem, Instructor, Testimonial } from './types';
 
-export const COMPANY_NAME = "Vio Auto Class";
+export const COMPANY_NAME = "Vio AutoClass";
 
 export const NAV_ITEMS: NavItem[] = [
   { label: "Acasă", href: "#home" },
@@ -25,7 +25,7 @@ export const COURSES: Course[] = [
     id: "cat-b-1",
     category: "",
     title: "BMW Seria 1 Cutie Automata",
-    description: "Benzina",
+    description: "Diesel",
     price: "3100 RON",
     duration: "Total sedinte (15). Durata sedinta (1 ora si 40 de min).",
     features: ["Pret sedinta suplimentara (250 RON)", "Orele de legislatie rutiera incluse in pret."],
@@ -42,10 +42,20 @@ export const COURSES: Course[] = [
     image: "/bmw_alb2_fata_result.avif"
   },
   {
+    id: "cat-b-2-bmw",
+    category: "",
+    title: "BMW Seria 1 Manual",
+    description: "Diesel",
+    price: "2850 RON",
+    duration: "Total sedinte (15). Durata sedinta (1 ora si 40 de min).",
+    features: ["Pret sedinta suplimentara (220 RON)", "Orele de legislatie rutiera incluse in pret."],
+    image: "/bmw_alb_result.avif"
+  },
+  {
     id: "cat-b-3",
     category: "",
     title: "Mercedes Clasa C",
-    description: "Diesel",
+    description: "Benzina",
     price: "2850 RON",
     duration: "Total sedinte (15). Durata sedinta (1 ora si 40 de min).",
     features: ["Pret sedinta suplimentara (250 RON)", "Orele de legislatie rutiera incluse in pret."],
@@ -64,7 +74,7 @@ export const COURSES: Course[] = [
     {
     id: "cat-b-5",
     category: "",
-    title: "Volkswagen Polo Manual",
+    title: "Volkswagen Golf 7 Manual",
     description: "Diesel",
     price: "2850 RON",
     duration: "Total sedinte (15). Durata sedinta (1 ora si 40 de min).",
@@ -127,6 +137,18 @@ export const GALLERY_ITEMS: GalleryItem[] = [
   {
     id: "g3",
     src: "/ww_gri_sofer_result.avif",
+    alt: "",
+    category: ""
+  },
+    {
+    id: "g4-1",
+    src: "/bmw2_instructor.avif",
+    alt: "",
+    category: ""
+  },
+    {
+    id: "g4-2",
+    src: "/ww7_alb_instructor.avif",
     alt: "",
     category: ""
   },
