@@ -58,7 +58,7 @@ const StudentInfo: React.FC = () => {
             </ul>
 
             <div className="rounded-2xl overflow-hidden mb-4 shadow-md">
-              <img src="/image_5.jpg" alt="Sala de curs" className="w-full h-48 object-cover" />
+              <img src="/image_5_result.avif" alt="Sala de curs" className="w-full h-48 object-cover" />
             </div>
 
             <div className="bg-red-50 p-4 rounded-xl border border-red-100 text-red-800 text-sm font-semibold text-center">
