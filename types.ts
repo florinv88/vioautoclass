@@ -43,3 +43,19 @@ export interface Testimonial {
   text: string;
   rating: number;
 }
+
+export interface Review {
+  id: string;
+  username: string;    // poate fi "Ion Popescu" sau "@username"
+  rating: number;      // 1–5
+  text: string;
+}
+
+export interface Instructor {
+  id: string;
+  name: string;
+  role: string;
+  experience: string;
+  image: string;
+  reviews?: Review[]; 
+}

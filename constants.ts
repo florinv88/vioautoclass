@@ -122,36 +122,36 @@ export const EXTRA_FEES = [
 ];
 
 export const GALLERY_ITEMS: GalleryItem[] = [
-  {
-    id: "g1",
-    src: "/bmw_negru_sofer_result.avif",
-    alt: "",
-    category: ""
-  },
-  {
-    id: "g2",
-    src: "/bmw_alb_sofer_result.avif",
-    alt: "",
-    category: ""
-  },
-  {
-    id: "g3",
-    src: "/ww_gri_sofer_result.avif",
-    alt: "",
-    category: ""
-  },
-    {
-    id: "g4-1",
-    src: "/bmw2_instructor.avif",
-    alt: "",
-    category: ""
-  },
-    {
-    id: "g4-2",
-    src: "/ww7_alb_instructor.avif",
-    alt: "",
-    category: ""
-  },
+  // {
+  //   id: "g1",
+  //   src: "/bmw_negru_sofer_result.avif",
+  //   alt: "",
+  //   category: ""
+  // },
+  // {
+  //   id: "g2",
+  //   src: "/bmw_alb_sofer_result.avif",
+  //   alt: "",
+  //   category: ""
+  // },
+  // {
+  //   id: "g3",
+  //   src: "/ww_gri_sofer_result.avif",
+  //   alt: "",
+  //   category: ""
+  // },
+  //   {
+  //   id: "g4-1",
+  //   src: "/bmw2_instructor.avif",
+  //   alt: "",
+  //   category: ""
+  // },
+  //   {
+  //   id: "g4-2",
+  //   src: "/ww7_alb_instructor.avif",
+  //   alt: "",
+  //   category: ""
+  // },
   {
     id: "g4",
     src: "/bmw_negru_spate_result.avif",
@@ -210,26 +210,64 @@ export const GALLERY_ITEMS: GalleryItem[] = [
 
 export const INSTRUCTORS: Instructor[] = [
   {
-    id: "inst-1",
-    name: "Marius Ionescu",
-    role: "Instructor Auto Categoria B",
-    experience: "15 ani experiență",
-    image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=400&h=400"
+    id: '1',
+    name: 'Irina Mihai',
+    role: 'Instructor categoria B',
+    experience: '8 ani',
+    image: '/bmw_alb_sofer_result.avif',
+    reviews: [
+      { id: '1r1', username: '@ionescu_maria', rating: 5, text: 'Explicații clare, răbdare infinită. Recomandat!' },
+      { id: '1r2', username: 'Dan Popescu', rating: 4, text: 'Foarte profesionist, cursul m-a ajutat enorm.' },
+    ],
   },
   {
-    id: "inst-2",
-    name: "Elena Popa",
-    role: "Instructor Auto Categoria B/C",
-    experience: "10 ani experiență",
-    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=400&h=400"
+    id: '2',
+    name: 'Bunea Viorel',
+    role: 'Instructor categoria B',
+    experience: '12 ani',
+    image: '/bmw_negru_sofer_result.avif',
+    reviews: [
+      { id: '2r1', username: 'Visan Florin', rating: 5, text: 'Explicații clare, răbdare infinită. Recomandat!' },
+      { id: '2r2', username: 'Dan Popescu', rating: 5, text: 'Foarte profesionist!' },
+    ],
   },
   {
-    id: "inst-3",
-    name: "Cristian Radu",
-    role: "Profesor Legislație Rutieră",
-    experience: "20 ani experiență",
-    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=400&h=400"
-  }
+    id: '3',
+    name: 'Alexandru Mihai',
+    role: 'Instructor categoria B',
+    experience: '10 ani',
+    image: '/bmw2_instructor.avif',
+    reviews: [
+      { id: '3r1', username: '@ionescu_maria', rating: 5, text: 'Explicații clare, răbdare infinită. Recomandat!' },
+      { id: '3r2', username: 'Dan Popescu', rating: 5, text: 'Foarte profesionist, cursul m-a ajutat enorm.' },
+    ],
+  },
+    {
+    id: '4',
+    name: 'Andrei Cuja',
+    role: 'Instructor categoria B',
+    experience: '10 ani',
+    image: '/ww7_alb_instructor.avif',
+    reviews: [
+      { id: '4r1', username: '@ionescu_maria', rating: 5, text: 'Explicații clare, răbdare infinită. Recomandat!' },
+      { id: '4r2', username: 'Dan Popescu', rating: 4, text: 'Foarte profesionist, cursul m-a ajutat enorm.' },
+       { id: '4r3', username: 'Dan Marin', rating: 4, text: 'Foarte profesionist, cursul m-a ajutat enorm.' },
+    ],
+  },
+  {
+    id: '5',
+    name: 'Andrei Miron',
+    role: 'Instructor categoria B',
+    experience: '7 ani',
+    image: '/ww_gri_sofer_result.avif',
+    reviews: [
+      { id: '5r1', username: '@ionescu_maria', rating: 5, text: 'Explicații clare, răbdare infinită. Recomandat!' },
+      { id: '5r2', username: 'Dan Popescu', rating: 4, text: 'Foarte profesionist, cursul m-a ajutat enorm.' },
+       { id: '5r3', username: 'Dan Marin', rating: 4, text: 'Foarte profesionist, cursul m-a ajutat enorm.' },
+    ],
+  },
+  
+  
 ];
 
 export const TESTIMONIALS: Testimonial[] = [

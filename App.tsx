@@ -8,6 +8,7 @@ import StudentInfo from './components/StudentInfo';
 import Gallery from './components/Gallery';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Team from './components/Team';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Hero />
         <Features />
         <Courses />
+        <Team />
         <Pricing />
         <StudentInfo />
         <Gallery />
