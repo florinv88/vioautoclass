@@ -81,6 +81,16 @@ export const COURSES: Course[] = [
     features: ["Pret sedinta suplimentara (220 RON)", "Orele de legislatie rutiera incluse in pret."],
     image: "/ww_gri_fata_result.avif"
   },
+    {
+    id: "cat-b-6",
+    category: "",
+    title: "Volkswagen Polo Manual",
+    description: "Benzina",
+    price: "2500 RON",
+    duration: "Total sedinte (15). Durata sedinta (1 ora si 40 de min).",
+    features: ["Pret sedinta suplimentara (220 RON)", "Orele de legislatie rutiera incluse in pret."],
+    image: "/polo_benzina_2026_08_03.jpeg"
+  }
 ];
 
 export const CAR_FLEET_PRICING = [
@@ -268,6 +278,14 @@ export const INSTRUCTORS: Instructor[] = [
       { id: '5r3', username: 'Teodora Popescu', rating: 5, text: 'Recomand călduros școala de șoferi Vioautoclass pentru calitatea serviciilor oferite. Doresc să îi mulțumesc în mod special dlui. Valentin Vintilă pentru profesionalismul și răbdarea de care a dat dovadă pe parcursul lecțiilor de condus. Explicațiile clare și abordarea calmă m-au ajutat să învăț rapid, să îmi depășesc temerile și să promovez examenul din prima încercare.' }
     ],
   },
+  {
+    id: '6',
+    name: 'Gheorghe Viorel',
+    role: 'Instructor categoria B',
+    experience: '23 ani',
+    image: '/polo_benzina_2026_08_03_instructor.jpeg',
+    reviews: [],
+  }
 
 
 ];

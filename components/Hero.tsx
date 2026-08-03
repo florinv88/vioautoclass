@@ -8,7 +8,7 @@ const Hero: React.FC = () => {
       <div className="absolute inset-0 z-0">
         <img 
           src="/masini_sediu_result.avif" 
-          alt="Vio Auto Class Fleet" 
+          alt="Vio AutoClass Fleet" 
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-slate-900/90 to-slate-900/40"></div>
