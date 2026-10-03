@@ -1,3 +1,4 @@
+
 import { ContactInfo, Course, GalleryItem, NavItem, Instructor, Testimonial } from './types';
 
 export const COMPANY_NAME = "Vio AutoClass";
@@ -86,43 +87,10 @@ export const COURSES: Course[] = [
     category: "",
     title: "Volkswagen Polo Manual",
     description: "Benzina",
-    price: "2500 RON",
+    price: "2850 RON",
     duration: "Total sedinte (15). Durata sedinta (1 ora si 40 de min).",
     features: ["Pret sedinta suplimentara (220 RON)", "Orele de legislatie rutiera incluse in pret."],
     image: "/polo_benzina_2026_08_03.jpeg"
-  }
-];
-
-export const CAR_FLEET_PRICING = [
-  {
-    model: "VW Polo",
-    transmission: "Manuală",
-    price: "2400 RON",
-  },
-  {
-    model: "VW Golf 7 Diesel",
-    transmission: "Manuală",
-    price: "2650 RON",
-  },
-  {
-    model: "VW Golf 7 Benzină",
-    transmission: "Manuală",
-    price: "2650 RON",
-  },
-  {
-    model: "BMW Seria 1 Diesel",
-    transmission: "Manuală",
-    price: "2650 RON",
-  },
-  {
-    model: "Mercedes Clasa C",
-    transmission: "Automată",
-    price: "2750 RON",
-  },
-  {
-    model: "NOU: BMW Seria 1",
-    transmission: "Automată",
-    price: "3100 RON",
   }
 ];
 
@@ -132,36 +100,6 @@ export const EXTRA_FEES = [
 ];
 
 export const GALLERY_ITEMS: GalleryItem[] = [
-  // {
-  //   id: "g1",
-  //   src: "/bmw_negru_sofer_result.avif",
-  //   alt: "",
-  //   category: ""
-  // },
-  // {
-  //   id: "g2",
-  //   src: "/bmw_alb_sofer_result.avif",
-  //   alt: "",
-  //   category: ""
-  // },
-  // {
-  //   id: "g3",
-  //   src: "/ww_gri_sofer_result.avif",
-  //   alt: "",
-  //   category: ""
-  // },
-  //   {
-  //   id: "g4-1",
-  //   src: "/bmw2_instructor.avif",
-  //   alt: "",
-  //   category: ""
-  // },
-  //   {
-  //   id: "g4-2",
-  //   src: "/ww7_alb_instructor.avif",
-  //   alt: "",
-  //   category: ""
-  // },
   {
     id: "g4",
     src: "/bmw_negru_spate_result.avif",
@@ -310,47 +248,3 @@ export const TESTIMONIALS: Testimonial[] = [
     rating: 4
   }
 ];
-
-export const AI_SYSTEM_INSTRUCTION = `
-You are the AI assistant for Vio AutoClass, a top driving school in București (Drumul Sarii, Sector 6).
-Your goal is to help potential students with information about courses, pricing, car fleet, and requirements.
-
-Use the following data to answer questions:
-
-PRICING (TARIFE) - Category B depends on the car:
-- BMW Seria 1 Automatic (NEW): 3100 RON
-- BMW Seria 1 Diesel Manual: 2650 RON
-- Mercedes C Class Automatic: 2750 RON
-- VW Golf 7 Petrol Manual: 2650 RON
-- VW Golf 7 Diesel Manual: 2650 RON
-- VW Polo Manual: 2400 RON
-
-OTHER CATEGORIES:
-- Categoria C: 2800 RON.
-- Categoria CE: 1500 RON.
-
-EXTRA FEES:
-- Extra session (Manual): 200 RON
-- Extra session (Mercedes C): 200 RON
-- Extra session (BMW Auto): 250 RON
-- Exam car rental: 300 RON
-- English schooling: 3100 RON
-
-THEORY TRAINING (LEGISLATIE):
-- Total 24 hours: 16h legislation, 4h preventive driving, 2h mechanics, 2h first aid.
-- Modern classroom.
-
-REQUIRED DOCUMENTS (ACTE NECESARE):
-- ID Copy (Copie CI)
-- Medical Record (Fisa Medicala)
-- Psychological Test (Test Psihologic)
-- Criminal Record for Auto Exam (Cazier Judiciar)
-
-CONTACT:
-- Phone Secretariat: ${CONTACT_INFO.phone}
-- Other Phones: ${CONTACT_INFO.secondaryPhones?.join(', ')}
-- Location: ${CONTACT_INFO.address}
-
-Tone: Professional, encouraging, polite, and helpful. Use Romanian language primarily.
-Keep answers concise (under 100 words).
-`;
