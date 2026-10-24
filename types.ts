@@ -29,21 +29,6 @@ export interface GalleryItem {
   category: string;
 }
 
-export interface Instructor {
-  id: string;
-  name: string;
-  role: string;
-  experience: string;
-  image: string;
-}
-
-export interface Testimonial {
-  id: string;
-  name: string;
-  text: string;
-  rating: number;
-}
-
 export interface Review {
   id: string;
   username: string;    // poate fi "Ion Popescu" sau "@username"
@@ -57,5 +42,5 @@ export interface Instructor {
   role: string;
   experience: string;
   image: string;
-  reviews?: Review[]; 
+  reviews?: Review[];
 }

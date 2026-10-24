@@ -1,5 +1,5 @@
 
-import { ContactInfo, Course, GalleryItem, NavItem, Instructor, Testimonial } from './types';
+import { ContactInfo, Course, GalleryItem, NavItem, Instructor } from './types';
 
 export const COMPANY_NAME = "Vio AutoClass";
 
@@ -226,25 +226,4 @@ export const INSTRUCTORS: Instructor[] = [
   }
 
 
-];
-
-export const TESTIMONIALS: Testimonial[] = [
-  {
-    id: "t1",
-    name: "Andrei M.",
-    text: "O școală de nota 10! Am luat permisul din prima încercare datorită domnului Marius.",
-    rating: 5
-  },
-  {
-    id: "t2",
-    name: "Maria S.",
-    text: "Instructorii sunt foarte calmi și explică totul pe înțelesul tuturor. Recomand cu drag!",
-    rating: 5
-  },
-  {
-    id: "t3",
-    name: "George V.",
-    text: "Program flexibil și mașini noi. Experiența a fost mult mai plăcută decât mă așteptam.",
-    rating: 4
-  }
 ];

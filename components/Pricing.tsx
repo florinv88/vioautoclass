@@ -1,5 +1,5 @@
 import React from 'react';
-import { CAR_FLEET_PRICING, EXTRA_FEES } from '../constants';
+import { EXTRA_FEES } from '../constants';
 import { CheckCircle, CreditCard } from 'lucide-react';
 
 const Pricing: React.FC = () => {
@@ -34,7 +34,7 @@ const Pricing: React.FC = () => {
               <h3 className="text-xl font-bold">Modalități de Plată</h3>
             </div>
             <p className="text-slate-300 mb-6">
-              Vio Auto Class înțelege nevoile cursanților. Acceptăm plata cash sau prin transfer bancar.
+              Vio AutoClass înțelege nevoile cursanților. Acceptăm plata cash sau prin transfer bancar.
             </p>
             <div className="bg-slate-800 rounded-xl p-4 border border-slate-700">
               <p className="text-lg font-semibold text-center text-white">
